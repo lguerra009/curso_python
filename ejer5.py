@@ -1,5 +1,5 @@
-nombre: str = 'Marcos'
-apellido: str = 'villagra'
+nombre = 'Marcos'
+apellido = 'villagra'
 edad = 35
 email= 'marcosv@gmail.com'
 telefono = 1145785242
