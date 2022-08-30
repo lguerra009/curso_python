@@ -15,9 +15,9 @@ def anio_bi (a):
 print("saber si un anio es bisiesto.")
 anio = int(input("ingrese al anio para saber si es bisiesto: "))
 
-#while type(anio) != int:
-#    print("ingrese datos validos:")
-#200    anio = int (input("ingrese el anio para ver si es bisiesto: "))
+while anio <=0:
+    print("por favor ingresa datos correctos: ")
+    anio = int(input("ingrese anio para ver si es bisiesto " ))
 
 if anio_bi(anio) == True:
     print("el anio ", anio, "es bisiesto")
